@@ -1,0 +1,68 @@
+:root {
+    --color1:#E50914;
+    --color2:#141414;
+}
+
+body {
+    background: var(--color2);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo {
+    color: var(--color1);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 10px;
+}  
+
+header nav a:hover {
+    color: #fff;
+}
+
+.boxCarrosel {
+    height: 10%;
+    width: 10%;
+    margin-top: 10px;
+}
+
+.genero {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--color1);
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+.item:hover {
+    transform: scale(1.02);
+    z-index: z-index(default);
+    transition: 0.2s;
+}
+
+.item:active {
+    transform: scale(0.95);
+}
+
+

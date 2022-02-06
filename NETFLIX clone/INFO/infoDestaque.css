@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1:#E50914;
+    --color2:#141414;
+}
+
+body {
+    background: var(--color2);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo {
+    color: var(--color1);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 10px;
+}  
+
+header nav a:hover {
+    color: #fff;
+}
+
+
+.info {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/imag/naruto-last.jpg');
+    margin-top: 20px;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h3 {
+    color: rgb(1, 29, 9);
+    font-size: 35px;
+    margin-top: 2%;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.info-titulo {
+    font-size: 10px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    
+}
+
+.direcao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.sinopse-titulo {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.sinopse-filme {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    text-align: justify;
+    
+}
+
+.info .container {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    
+}
+
+.informacoes {
+    width: 600px;
+    position: absolute;
+    right: 20px;
+}
+
+/**
+.poster {
+    position: absolute;
+    left: 10px;
+    top: 11.5%;   
+}
+**/
+
+
+@media screen and (max-width:750px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }    
+}
+
+
+
+
+
